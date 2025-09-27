@@ -25,7 +25,7 @@ public class MekGreenhouse
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "mekanism_greenhouse";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public MekGreenhouse(FMLJavaModLoadingContext context)
     {
